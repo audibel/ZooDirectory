@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.csulb.android.zooapplication.AnimalListing">
+    <item
+        android:id="@+id/informations"
+        android:orderInCategory="100"
+        android:title="@string/informations"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/uninstall"
+        android:orderInCategory="100"
+        android:title="@string/uninstall"
+        app:showAsAction="never" />
+</menu>
